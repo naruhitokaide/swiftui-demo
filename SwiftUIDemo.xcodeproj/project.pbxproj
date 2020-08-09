@@ -15,6 +15,10 @@
 		7D32FD1824DC390C00B4D556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D32FD1624DC390C00B4D556 /* LaunchScreen.storyboard */; };
 		7D32FD2324DC390C00B4D556 /* SwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32FD2224DC390C00B4D556 /* SwiftUIDemoTests.swift */; };
 		7D32FD2E24DC390C00B4D556 /* SwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D32FD2D24DC390C00B4D556 /* SwiftUIDemoUITests.swift */; };
+		7D38C607250526B800551D5D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C606250526B800551D5D /* Helper.swift */; };
+		7D38C609250526C100551D5D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C608250526C100551D5D /* Menu.swift */; };
+		7D38C60B250526C600551D5D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C60A250526C600551D5D /* Order.swift */; };
+		7D38C60D25052A8900551D5D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D38C60C25052A8700551D5D /* menu.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		7D32FD2924DC390C00B4D556 /* SwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D32FD2D24DC390C00B4D556 /* SwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDemoUITests.swift; sourceTree = "<group>"; };
 		7D32FD2F24DC390C00B4D556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D38C606250526B800551D5D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = "../../../../Downloads/idine-resource/Helper.swift"; sourceTree = "<group>"; };
+		7D38C608250526C100551D5D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "../../../../Downloads/idine-resource/Menu.swift"; sourceTree = "<group>"; };
+		7D38C60A250526C600551D5D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = "../../../../Downloads/idine-resource/Order.swift"; sourceTree = "<group>"; };
+		7D38C60C25052A8700551D5D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "../../../../Downloads/idine-resource/menu.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,10 @@
 		7D32FD0A24DC390300B4D556 /* SwiftUIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7D38C60C25052A8700551D5D /* menu.json */,
+				7D38C606250526B800551D5D /* Helper.swift */,
+				7D38C60A250526C600551D5D /* Order.swift */,
+				7D38C608250526C100551D5D /* Menu.swift */,
 				7D32FD0B24DC390300B4D556 /* AppDelegate.swift */,
 				7D32FD0D24DC390300B4D556 /* SceneDelegate.swift */,
 				7D32FD0F24DC390300B4D556 /* ContentView.swift */,
@@ -242,6 +254,7 @@
 			files = (
 				7D32FD1824DC390C00B4D556 /* LaunchScreen.storyboard in Resources */,
 				7D32FD1524DC390C00B4D556 /* Preview Assets.xcassets in Resources */,
+				7D38C60D25052A8900551D5D /* menu.json in Resources */,
 				7D32FD1224DC390C00B4D556 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +280,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D38C60B250526C600551D5D /* Order.swift in Sources */,
 				7D32FD0C24DC390300B4D556 /* AppDelegate.swift in Sources */,
 				7D32FD0E24DC390300B4D556 /* SceneDelegate.swift in Sources */,
 				7D32FD1024DC390300B4D556 /* ContentView.swift in Sources */,
+				7D38C607250526B800551D5D /* Helper.swift in Sources */,
+				7D38C609250526C100551D5D /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
