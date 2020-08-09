@@ -19,6 +19,7 @@
 		7D38C609250526C100551D5D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C608250526C100551D5D /* Menu.swift */; };
 		7D38C60B250526C600551D5D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C60A250526C600551D5D /* Order.swift */; };
 		7D38C60D25052A8900551D5D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 7D38C60C25052A8700551D5D /* menu.json */; };
+		7D38C60F25052A8900551D5D /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D38C60E25052A8900551D5D /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		7D38C608250526C100551D5D /* Menu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = "../../../../Downloads/idine-resource/Menu.swift"; sourceTree = "<group>"; };
 		7D38C60A250526C600551D5D /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = "../../../../Downloads/idine-resource/Order.swift"; sourceTree = "<group>"; };
 		7D38C60C25052A8700551D5D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = "../../../../Downloads/idine-resource/menu.json"; sourceTree = "<group>"; };
+		7D38C60E25052A8900551D5D /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				7D38C606250526B800551D5D /* Helper.swift */,
 				7D38C60A250526C600551D5D /* Order.swift */,
 				7D38C608250526C100551D5D /* Menu.swift */,
+				7D38C60E25052A8900551D5D /* ItemRow.swift */,
 				7D32FD0B24DC390300B4D556 /* AppDelegate.swift */,
 				7D32FD0D24DC390300B4D556 /* SceneDelegate.swift */,
 				7D32FD0F24DC390300B4D556 /* ContentView.swift */,
@@ -283,6 +286,7 @@
 				7D38C60B250526C600551D5D /* Order.swift in Sources */,
 				7D32FD0C24DC390300B4D556 /* AppDelegate.swift in Sources */,
 				7D32FD0E24DC390300B4D556 /* SceneDelegate.swift in Sources */,
+				7D38C60F25052A8900551D5D /* ItemRow.swift in Sources */,
 				7D32FD1024DC390300B4D556 /* ContentView.swift in Sources */,
 				7D38C607250526B800551D5D /* Helper.swift in Sources */,
 				7D38C609250526C100551D5D /* Menu.swift in Sources */,
